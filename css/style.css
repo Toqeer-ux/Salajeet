@@ -1,0 +1,2643 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5.p,
+span {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+nav .navbar-nav .nav-link {
+    color: #00000080;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fluid-container{
+	overflow:hidden;
+}
+nav .navbar-nav .nav-link.active {
+    color: #2474EB;
+}
+
+nav .navbar-nav .nav-link:hover {
+    color: #2474EB;
+}
+
+nav .shopping-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav .shopping-icons ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/*  */
+.slider-pro-data input[type=radio] {
+    display:none; 
+    margin:10px;
+}
+.slider-pro-data input[type=radio] + label {
+    display:inline-block;
+    text-decoration: none;
+    box-shadow: 0px 0px 2px 0px #00000029;
+    width: 55px;
+    height: 35px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1E1E1E;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #9E9E9E;
+}
+.slider-pro-data input[type=radio]:checked + label { 
+   background-image: none;
+   border: 1.87px solid #2474EB;
+   color: #2474EB;
+}
+.slider-pro-data .form-check{
+    display: inline-block !important;
+}
+.slider-pro-data .form-check:first-child{
+    padding-left: 0;
+}
+/*  */
+nav .shopping-icons ul li a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0px 0px 10px #00000017;
+    color: #232323;
+}
+
+header .cart-btns {
+    display: flex;
+    align-items: end;
+}
+
+header .cart-btns a {
+    text-decoration: none;
+}
+
+header .cart-btns a i {
+    color: #5F5F5F;
+    font-size: 20px;
+}
+
+header .cart-btns .cart {
+    margin-left: 10px;
+    position: relative;
+}
+
+header .cart-btns .cart img {
+    width: 25px;
+}
+
+header .cart-btns .cart .number {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+header .cart-btns .cart .number span {
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Hero Slider */
+.hero-slider .carousel-item img {
+    height: 545px;
+}
+
+.hero-slider .carousel-item .overlay {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0000008c;
+}
+
+.carousel-caption {
+    top: 25%;
+    left: 20%;
+    right: 20%;
+}
+
+.carousel-caption h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+}
+
+.hero-slider .carousel-control-prev {
+    left: 5%;
+}
+
+.hero-slider .carousel-control-next {
+    right: 5%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    top: 50%;
+    border-radius: 50%;
+    background-color: #c7b9b959;
+    opacity: 1;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+    font-size: 20px;
+}
+
+.carousel-control-prev span i,
+.carousel-control-next span i {
+    color: #fff;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.hero-slider .hero-btn {
+    margin-top: 50px;
+}
+
+.hero-slider .hero-btn a {
+    text-decoration: none;
+    background-color: #2474EB;
+    color: #fff;
+    border-radius: 5px;
+    border-bottom: 2px solid #fff;
+    padding: 15px 30px;
+    font-weight: 500;
+}
+
+/* Benifits for women */
+.women {
+    padding: 50px 0;
+}
+
+.women .women-img {
+    border-radius: 10px;
+}
+
+.women .women-text {
+    margin: 20px 0;
+}
+
+.women .women-text h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.women .women-text p {
+    font-size: 15px;
+}
+
+.women .women-text .more-dt-btn {
+    margin-top: 30px;
+}
+
+.women .women-text .more-dt-btn a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #2474EB;
+    border-bottom: 2px solid #2474EB;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    background: linear-gradient(to left, #fff 50%, #2474EB 50%) right;
+    background-size: 205%;
+    transition: .5s ease-out;
+}
+
+.women-text .more-dt-btn a:hover {
+    background-position: left;
+    color: #fff;
+}
+
+/* men */
+.men {
+    padding: 50px 0;
+}
+
+.men .men-img {
+    border-radius: 10px;
+}
+
+.men .men-text {
+    margin: 20px 0;
+}
+
+.men .men-text h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.men .men-text p {
+    font-size: 15px;
+}
+
+.men .men-text .more-dt-btn {
+    margin-top: 30px;
+}
+
+.men .men-text .more-dt-btn a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #2474EB;
+    border-bottom: 2px solid #2474EB;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    background: linear-gradient(to left, #fff 50%, #2474EB 50%) right;
+    background-size: 205%;
+    transition: .5s ease-out;
+}
+
+.men .more-dt-btn a:hover {
+    background-position: left;
+    color: #fff;
+}
+
+/* Container */
+.custom-container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* products */
+.products .products-heding {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.products .products-heding h3 {
+    color: #101A24;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.products .all-products {
+    background-color: #F2F7FF;
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.products .all-products .product-box {
+    background-color: #ffffffc4;
+    padding: 30px 10px;
+    border-radius: 10px;
+    border: 2px solid #BED8FF;
+    border-top: none;
+    margin-top: 150px;
+}
+
+.products .all-products .product-img {
+    position: relative;
+    margin: -150px auto 0;
+    width: 200px;
+}
+
+.products .all-products .product-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    filter: drop-shadow(7px 7px 15px #00000024);
+}
+
+.products .all-products .product-img .pro-img-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.products .all-products .product-img .pro-img-text span {
+    background-color: #2474EB;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products .all-products .pro-details {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.products .all-products .pro-details h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.products .all-products .pro-details p {
+    font-size: 15px;
+}
+
+.products .all-products .product-quantity {
+    margin-top: 20px;
+}
+
+.products .all-products .product-quantity .btns {
+    border: 1px solid #2474EB;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+}
+
+.products .all-products .product-quantity .btns a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    flex: 1 1 auto;
+}
+
+.products .all-products .product-quantity .btns a.active {
+    background-color: #2474EB;
+    color: #fff;
+}
+
+.products .all-products .product-quantity .btns a:nth-child(2) {
+    border-left: 1px solid #2474EB;
+    ;
+    border-right: 1px solid #2474EB;
+    ;
+}
+
+.products .all-products .cart-btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.products .all-products .cart-btn button {
+    text-decoration: none;
+    padding: 10px 50px;
+    border: 1px solid #2474EB;
+    border-bottom: 2px solid #2474EB;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2474EB;
+    display: inline-block;
+    background: linear-gradient(to left, #fff 50%, #2474EB 50%) right;
+    background-size: 205%;
+    transition: .5s ease-out;
+}
+
+.products .all-products .cart-btn button:hover {
+    background-position: left;
+    color: #fff;
+}
+
+/* body-building */
+.body-building {
+    background-color: #2474EB;
+    overflow: hidden;
+}
+
+.body-building .container-fluid {
+    padding: 0;
+}
+
+.body-building .body-text {
+    margin: 50px 0;
+    padding: 0 15px;
+}
+
+.body-building .body-text h3 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.body-building .body-text p {
+    color: #fff;
+    font-size: 17px;
+}
+
+/* pure */
+.pure {
+    padding: 40px 0 0;
+}
+
+.pure .pure-dt {
+    margin: 100px 0;
+}
+
+.pure .pure-head h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.pure .pure-text {
+    margin-top: 15px;
+}
+
+.pure .pure-text p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.pure .pure-dt .shop-btn {
+    margin-top: 50px;
+}
+
+.pure .pure-dt .shop-btn a {
+    background-color: #2474EB;
+    padding: 12px 35px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.pure .pure-dt .shop-btn a:hover {
+    background-color: #1d59b4;
+}
+
+/* slajit */
+.slajit {
+    padding: 40px 0 0;
+    background-color: #F2F7FF;
+}
+
+.salajit-heading h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.salajit-text {
+    margin: 20px 0;
+}
+
+.salajit-text p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #717171;
+}
+
+.slajit-read-btn {
+    margin-top: 20px;
+}
+
+.slajit-read-btn a {
+    text-decoration: none;
+    color: #2474EB;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 25px 10px 0;
+    border-radius: 5px;
+}
+
+/* about-us */
+.about-us {
+    padding: 50px 20px;
+}
+
+.about-heading {
+    text-align: center;
+}
+
+.about-heading h3 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.about-us-text {
+    padding: 0 90px;
+    text-align: center;
+}
+
+.about-us-text p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.about-us-tag {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-us-tag span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.about-us-cards {
+    margin: 40px 0;
+}
+
+.about-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #2474eb40;
+    height: 100%;
+}
+
+.about-card .about-img {
+    height: 60px;
+}
+
+.about-card-heading {
+    margin: 20px 0;
+}
+
+.about-card-heading h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.about-card-text {
+    margin: 20px 0;
+}
+
+.about-card-text p {
+    font-size: 13px;
+    margin: 0;
+    line-height: 24px;
+    color: #4D4D4D
+}
+
+.about-lern-more a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.about-lern-more a i {
+    font-size: 14px;
+}
+
+.buy-now-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.buy-now-btn a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2474EB;
+    padding: 12px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.buy-now-btn a:hover {
+    background-color: #1d59b4;
+}
+
+/* testimonial */
+.testimonial {
+    padding: 60px 0;
+    margin-bottom: 50px;
+    background-color: #F2F7FF;
+}
+
+.testimonial .testi-heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.testimonial .testi-heading h3 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.testimonial .owl-carousel .owl-stage-outer {
+    padding: 15px 0;
+}
+
+.testimonial .owl-carousel .item {
+    margin: 0 20px;
+}
+
+.testimonial .owl-carousel .item {
+    box-shadow: 0px 0px 7px #0000001A;
+    border-radius: 15px;
+}
+
+.testimonial .owl-carousel .item .row .col-lg-4 {
+    padding-right: 0;
+}
+
+.testimonial .owl-carousel .item .row .col-lg-8 {
+    padding-left: 0;
+}
+
+.testimonial .owl-carousel .item .item-img {
+    height: 435px;
+}
+
+.testimonial .owl-carousel .item .item-img img {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 100%;
+}
+
+.testimonial .owl-carousel .item .item-text {
+    background-color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 35px 20px 10px 35px;
+    height: 100%;
+}
+
+.testimonial .owl-carousel .item .item-text span {
+    color: #525252;
+    font-size: 15px;
+}
+
+.testimonial .owl-carousel .item .item-data .item-text p {
+    font-size: 15px;
+    color: #525252;
+}
+
+.testimonial .owl-carousel .item .item-text h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    border: none;
+    background: transparent;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    margin: 5px !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #2474EB !important;
+}
+
+/* footer */
+.footer {
+    border-top: 1px solid #B7B7B7;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+
+}
+
+.footer-top {
+    padding: 50px 0 15px;
+    border-bottom: 1px solid #B7B7B7;
+}
+
+.f-data-text {
+    margin: 10px 0;
+}
+
+.f-data-text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0;
+}
+
+.footer-links a {
+    width: 35px;
+    height: 35px;
+    background-color: #8d99945c;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.footer-links li:first-child {
+    margin-left: 0;
+}
+
+.footer-box h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-box ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.footer-box li {
+    list-style: none;
+    margin: 10px;
+}
+
+.footer-box ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.Contact .location {
+    display: flex;
+}
+
+.Contact a i {
+    margin-right: 5px;
+    color: #2474EB;
+}
+
+.update-input {
+    margin: 30px 0;
+    background-color: #d3e3fb;
+    display: flex;
+    align-items: center;
+    padding: 5px 12px 5px 5px;
+    border-radius: 10px;
+}
+
+.update-input input {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.update-input input::placeholder {
+    color: #2474EB;
+}
+
+.update-input img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.footer-end {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-end p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    color: #000;
+}
+
+/* Salajeet-benifits */
+.Salajeet-benifits .blog-links ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.Salajeet-benifits .blog-links ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.Salajeet-benifits .blog-links ul li a {
+    text-decoration: none;
+    color: #2474EB;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Salajeet-benifits .blog-links ul li:last-child a {
+    color: #848484;
+    font-weight: 400;
+}
+
+.Salajeet-benifits .blog-links ul li:last-child a i {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.Salajeet-benifits .blog-data {
+    margin-top: 30px;
+}
+
+.Salajeet-benifits .blog-data .weight-loss h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.Salajeet-benifits .blog-data .weight-loss .top-text {
+    padding-right: 15px;
+
+}
+
+.Salajeet-benifits .blog-data .weight-loss .top-text p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Salajeet-benifits .blog-data .weight-loss .img {
+    position: relative;
+}
+
+.Salajeet-benifits .blog-data .weight-loss .img .weight {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.Salajeet-benifits .blog-data .weight-loss .img .weight span {
+    color: #fff;
+    background-color: #2474EB;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Salajeet-benifits .blog-data .weight-loss .end-text {
+    margin-top: 12px;
+}
+
+.Salajeet-benifits .blog-data .weight-loss .end-text h3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #2474EB;
+}
+
+.Salajeet-benifits .blog-data .weight-loss .end-text ul {
+    padding-left: 25px;
+}
+
+.Salajeet-benifits .blog-data .weight-loss .end-text ul li {
+    margin: 5px 0;
+}
+
+.Salajeet-benifits .blog-data .weight-loss .end-text ul li span {
+    font-size: 15px;
+}
+
+.Salajeet-benifits .blog-data .women-detail .img {
+    position: relative;
+}
+
+.Salajeet-benifits .blog-data .women-detail .img .hair {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.Salajeet-benifits .blog-data .women-detail .img .hair span {
+    color: #fff;
+    background-color: #2474EB;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Salajeet-benifits .blog-data .women-detail .hair-text {
+    margin-top: 10px;
+}
+
+.Salajeet-benifits .blog-data .women-detail .hair-text span {
+    font-size: 15px;
+    font-weight: 500;
+    color: #2474EB;
+}
+
+.Salajeet-benifits .blog-data .women-detail .hair-text h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.Salajeet-benifits .blog-data .women-detail .hair-text p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.Salajeet-benifits .blog-data .women-detail .des-text {
+    position: relative;
+}
+
+.Salajeet-benifits .blog-data .women-detail .des-text .des {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.Salajeet-benifits .blog-data .women-detail .des-text .des span {
+    color: #fff;
+    background-color: #2474EB;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.blogs {
+    margin: 40px 0;
+}
+
+.blogs .blog-heading h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.blogs .blog-box {
+    position: relative;
+    margin: 10px 0;
+}
+
+.blogs .blog-box .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #23232352;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+}
+
+.blogs .blog-box .img-box img {
+    height: 400px;
+}
+
+.blogs .blog-box .overlay .overlay-text h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.blogs .blog-box .overlay .overlay-text span {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.benifit {
+    padding: 20px 0;
+}
+
+.benifit .beni-head h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.benifit .beni-box .ben-img img {
+    width: 100%;
+}
+
+.benifit .beni-box .ben-text {
+    margin-top: 20px;
+}
+
+.benifit .beni-box {
+    margin: 20px 0;
+}
+
+.benifit .beni-box .ben-text h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.benifit .beni-box .ben-text p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.benifits-text {
+    margin: 10px 0 50px;
+}
+
+.benifits-text h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.benifits-text {
+    font-size: 14px;
+}
+
+.benifits-text .for-women {
+    margin-top: 30px;
+}
+
+/* blog-editor */
+.blog-editor .blog-details {
+    margin: 10px 0;
+    padding: 12px 0;
+    border-top: 1px solid #C7C7C7;
+    border-bottom: 1px solid #C7C7C7;
+}
+
+.blog-editor .writer .img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.blog-editor .writer {
+    display: flex;
+    align-items: center;
+}
+
+.blog-editor .writer .name h4 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.blog-editor .writer .name {
+    margin-left: 10px;
+}
+
+.blog-editor .writer .name span {
+    font-size: 13px;
+    color: #666666;
+    font-weight: 400;
+}
+
+.blog-editor .writer-links ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.blog-editor .writer-links {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.blog-editor .writer-links ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.blog-editor .writer-links ul li:last-child {
+    margin-right: 0;
+}
+
+.blog-editor .writer-links ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 8px 18px;
+    border: 1px solid #B4B4B4;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 2px;
+    display: block;
+}
+
+.blog-editor .writer-links ul li a i {
+    color: #2474EB;
+    margin-right: 5px;
+}
+
+.beni-blog-data {
+    padding: 25px 0;
+}
+
+.beni-blog-data .head {
+    margin-bottom: 15px;
+}
+
+.beni-blog-data .head h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.beni-blog-data .blog-text {
+    margin-top: 20px;
+}
+
+.beni-blog-data .blog-text h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.beni-blog-data .blog-text p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.beni-blog-data .blog-text .stress h4 {
+    margin-bottom: 15px;
+}
+
+.beni-blog-data .blog-text .stress p {
+    margin-top: 15px;
+}
+
+.comments {
+    margin: 20px 0;
+}
+
+.comments .comment-head h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.comments .comment-head span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.comments .comment-head p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.comments .comment-box textarea {
+    height: 200px;
+}
+
+.comments .comment-box .inputs {
+    display: flex;
+    margin: 20px 0;
+}
+
+.comments .comment-box .inputs .input {
+    flex: 1 1 auto;
+    margin: 0 10px;
+}
+
+.comments .comment-box .inputs .input:first-child {
+    margin-left: 0;
+}
+
+.comments .comment-box .inputs .input:last-child {
+    margin-right: 0;
+}
+
+.comments .send-btn {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.comments .send-btn a {
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #5F5F5F;
+    background-color: #C1C1C1;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+/* Products Detail page */
+.product-hero {
+    width: 100%;
+    height: 100vh;
+    min-height: 534px;
+    background: url(../imgs/pro-hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pro-all-data .all-products {
+    background: none;
+    padding: 30px 0;
+}
+
+.pro-all-data .products-heding {
+    text-align: left;
+}
+
+.pro-all-data .products-heding h3 {
+    font-size: 25px !important;
+    font-weight: 500 !important;
+}
+.pro-all-data h3{
+	font-size: 22px;
+    font-weight: 500;
+}
+.pro-all-data ol{
+	padding-left:1.5rem;
+}
+.Salajeet-benifits{
+    padding: 10px 0px 10px;
+}
+
+.Salajeet-benifits .product-links ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.Salajeet-benifits .product-links ul li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.Salajeet-benifits .product-links ul li:first-child {
+    margin-left: 0;
+}
+
+.Salajeet-benifits .product-links ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6C757D;
+}
+
+.products .similar-head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.products .similar-head h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.all-pro-data .all-products {
+    padding: 30px 0;
+    margin-bottom: 50px;
+}
+
+.pro-slider .carousel-indicators {
+    margin-bottom: 0;
+}
+
+.pro-slider .carousel-indicators .img {
+    opacity: 1;
+    height: 100px;
+    width: 100px;
+    border-radius: 0;
+    box-shadow: 0px 1px 10px 0px #00000033;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 5px;
+}
+
+.pro-slider .carousel-indicators .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.pro-slider .carousel-indicators img.active {
+    padding: 0;
+    outline: none;
+}
+
+.pro-slider .carousel-indicators [data-bs-target] {
+    border-top: none;
+    border-bottom: none;
+}
+
+.pro-slider .carousel-item img {
+    height: 500px;
+	width:100%;
+}
+
+
+
+.pro-slider .slider-data {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 40px 40px 20px;
+}
+
+
+.pro-slider .slider-pro-data .head h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #1E1E1E;
+    margin: 0;
+
+}
+
+.pro-slider .slider-pro-data .color {
+    margin: 10px 0 0;
+}
+.pro-slider .slider-pro-data button{
+    text-decoration: none;
+    padding: 10px 50px;
+    border: 1px solid #2474EB;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2474EB;
+    display: inline-block;
+    background-color: transparent;
+}
+.pro-slider .slider-pro-data .form-control{
+    width: 65%;
+}
+.pro-slider .slider-pro-data .color h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #1E1E1E;
+    margin: 0;
+}
+
+.pro-slider .slider-pro-data .color ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pro-slider .slider-pro-data .color ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.pro-slider .slider-pro-data .color ul li a {
+    text-decoration: none;
+    box-shadow: 0px 0px 2px 0px #00000029;
+    width: 48px;
+    height: 30px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1E1E1E;
+}
+
+.pro-slider .slider-pro-data .color ul li a.active {
+    border: 1.87px solid #2474EB
+}
+
+.pro-slider .slider-pro-data .price {
+    display: flex;
+    align-items: center;
+}
+
+.pro-slider .slider-pro-data .price span {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.pro-slider .slider-pro-data .price h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.pro-slider .slider-pro-data .quantity {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.pro-slider .slider-pro-data .quantity .weight {
+    margin-right: 10px;
+}
+
+.pro-slider .slider-pro-data .quantity .weight span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2474EB;
+}
+
+.pro-slider .slider-pro-data .quantity .discount span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FF7A00;
+}
+
+.pro-slider .carousel-inner {
+    border-radius: 10px;
+}
+
+.pro-slider .slider-pro-data .garms ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pro-slider .slider-pro-data .garms ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.pro-slider .slider-pro-data .garms ul li a {
+    text-decoration: none;
+    box-shadow: 0px 0px 2px 0px #00000029;
+    width: 55px;
+    height: 35px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1E1E1E;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #9E9E9E;
+}
+
+.pro-slider .slider-pro-data .garms ul li a.active {
+    border: 1.87px solid #2474EB;
+    color: #2474EB;
+}
+
+.pro-slider .slider-pro-data .garms {
+    margin: 45px 0;
+}
+
+.pro-slider .slider-pro-data .cart-btn button {
+    text-decoration: none;
+    padding: 10px 50px;
+    border: 1px solid #2474EB;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2474EB;
+    display: inline-block;
+    background: linear-gradient(to left, #fff 50%, #2474EB 50%) right;
+    background-size: 205%;
+    transition: .5s ease-out;
+}
+
+.pro-slider .slider-pro-data .cart-btn button:hover {
+    background-position: left;
+    color: #fff;
+}
+
+.pro-slider .slider-pro-data .delievry {
+    margin: 130px 0 0;
+}
+
+.pro-slider .slider-pro-data .delievry .delievr {
+    display: flex;
+    align-items: center;
+}
+
+.pro-slider .slider-pro-data .delievry span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #6C757D;
+}
+
+.pro-slider .slider-pro-data .delievry .delievr .head {
+    margin: 0 10px;
+}
+
+.pro-slider .slider-pro-data .delievry .delievr .days span {
+    color: #2CB708;
+}
+
+.pro-slider .slider-pro-data .delievry .return {
+    display: flex;
+    align-items: center;
+}
+
+.pro-slider .slider-pro-data .delievry .return .conditions-btn {
+    margin: 0 10px;
+}
+
+.pro-slider .slider-pro-data .delievry .return .head {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.pro-slider .slider-pro-data .delievry .return .head .icon {
+    margin-right: 5px;
+}
+
+.pro-slider .slider-pro-data .delievry .return .days span {
+    color: #000;
+}
+
+.pro-slider .slider-pro-data .delievry .return a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #0D63F3;
+}
+
+.description {
+    padding: 40px 0;
+}
+.description .des-menu ul{
+    padding: 0;
+}
+.description .des-menu ul li {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.description .des-menu ul li button {
+    padding: 7px 0;
+    text-decoration: none;
+    font-size: 15.69px;
+    font-weight: 500;
+    color: #191919;
+    background: none;
+}
+
+.description .des-menu ul li button.active {
+    border-bottom: 1.31px solid #E73C17;
+}
+
+.description .des-data ul {
+    padding: 0;
+    margin: 0;
+}
+
+.description .des-data {
+    padding: 20px 0;
+    width: 65%;
+    margin: auto;
+}
+
+/* .description .des-data ul li{
+    list-style-type: '*';
+}  */
+.description .des-data p {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #191919;
+    line-height: 25px;
+}
+
+.description .des-data a {
+    color: #E73C17;
+    text-decoration: none;
+}
+
+/* Tabs */
+.tab {
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.log-in .dropdown-menu.show{
+	min-width:450px !important;
+}
+.log-in .dropdown-menu.show a{
+	text-decoration:none;
+}
+.log-in .dropdown-menu.show p{
+	display:flex !important;
+}
+#checkout-checkout h1{
+	font-size: 25px;
+    font-weight: 500;
+}
+#checkout-checkout legend{
+	    font-size: 20px;
+        color: #000;
+        font-weight: 400;
+}
+#checkout-checkout #checkout-confirm a{
+	text-decoration:none;
+	color:#000;
+}
+#checkout-checkout .form-label{
+	margin-bottom:0 !important;
+	font-size:16px;
+	font-weight: 500;
+}
+/* Contact page */
+.contact-us{
+    padding: 30px 0;
+}
+.contact-us .contact-inputs .input{
+    margin: 12px 0;
+}
+.contact-us .contact-inputs .input:first-child{
+    margin-top: 0px;
+}
+.contact-us .contact-inputs .input label, .contact-us .contact-inputs .input input{
+    font-size: 15px;
+}
+.contact-us .submit-btn{
+    text-align: end;
+    margin: 10px ;
+}
+.contact-us .submit-btn button{
+    border: none;
+    outline: none;
+    background-color: #0D63F3;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+@media(max-width:575px) {
+    .navbar-collapse {
+        position: absolute;
+        padding: 0 15px 25px;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        z-index: 99;
+    }
+	.log-in .dropdown-menu.show{
+		min-width:auto !important;
+	}
+    .navbar-toggler:hover {
+        box-shadow: 0 0 3px #2474EB;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 3px #2474EB;
+    }
+
+
+    nav .shopping-icons ul li:first-child {
+        margin-left: 0;
+    }
+
+    .log-in {
+        margin-left: 0;
+    }
+
+    nav .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .log-in a {
+        font-size: 14px;
+    }
+
+    .show-more-btn a {
+        font-size: 15px;
+    }
+
+    /* Slider */
+    .carousel-caption {
+        top: 15%;
+        left: 5%;
+        right: 5%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 28px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 75%;
+    }
+
+    .hero-slider .carousel-control-prev {
+        left: 33%;
+    }
+
+    .hero-slider .carousel-control-next {
+        right: 33%;
+    }
+
+    .hero-slider .hero-btn a {
+        padding: 15px 20px;
+        font-size: 15px;
+    }
+
+    .women,
+    .men {
+        padding: 25px 0 0;
+    }
+
+    .women .women-text h2,
+    .men .men-text h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .women .women-text,
+    .men .men-text {
+        text-align: justify;
+    }
+
+    .men .row {
+        flex-direction: column-reverse;
+    }
+
+    .products .all-products .product-img .pro-img-text span {
+        font-size: 16px;
+    }
+
+    .products .all-products .pro-details p {
+        font-size: 14px;
+    }
+
+    .products .all-products .product-quantity .btns a {
+        font-size: 15px;
+    }
+
+    .products .products-heding h3 {
+        font-size: 20px;
+    }
+
+    .body-building .body-text {
+        margin: 30px 0;
+        padding: 0px 20px;
+        text-align: justify;
+    }
+
+    .body-building .body-text h3 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .pure .pure-dt {
+        margin: 35px 0;
+    }
+
+    /*  */
+    .pure {
+        padding: 15px 0;
+    }
+
+    .pure-img {
+        margin-top: 10px;
+    }
+
+    .pure .pure-text {
+        padding: 15px 5px;
+        margin-top: 0;
+        text-align: justify;
+    }
+
+    .pure .pure-head h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .pure .pure-text P {
+        line-height: 24px;
+        font-size: 14px;
+    }
+
+    .pure .pure-dt .shop-btn {
+        margin-top: 12px;
+    }
+
+    .about-us {
+        padding: 30px 5px;
+    }
+
+    .about-us-text {
+        padding: 0;
+    }
+
+    .about-us-tag span {
+        font-size: 13px;
+    }
+
+    .about-us-text p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    .about-card-text p {
+        font-size: 14px;
+    }
+
+    .about-card {
+        height: auto;
+        margin: 15px 0;
+    }
+
+    .about-us-cards {
+        margin: 20px 0;
+    }
+
+    .buy-now-btn a {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+    .slajit {
+        padding: 0;
+    }
+
+    .salajit-data {
+        margin-top: 0;
+        padding-bottom: 25px;
+    }
+
+    .salajit-heading h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .salajit-text p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .testimonial {
+        padding: 40px 0
+    }
+
+    .testimonial .testi-heading h3 {
+        font-size: 25px;
+    }
+
+    .testimonial .owl-carousel .item .row .col-lg-4 {
+        padding-right: 12px;
+    }
+
+    .testimonial .owl-carousel .item .row .col-lg-8 {
+        padding-left: 12px;
+    }
+
+    .testimonial .owl-carousel .item .item-img img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0;
+    }
+
+    .testimonial .owl-carousel .item .item-text {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        padding: 30px 20px 10px 20px;
+    }
+
+    .testimonial .owl-carousel .item .item-text h3 {
+        font-size: 20px;
+    }
+
+    .testimonial .owl-carousel .item .item-text p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .footer-top {
+        padding: 40px 0 15px;
+    }
+
+    /* forwomen */
+    .Salajeet-benifits .blog-data .weight-loss h3 {
+        font-size: 22px;
+    }
+
+    .Salajeet-benifits .blog-data .weight-loss .top-text p {
+        font-size: 14px;
+    }
+
+    .Salajeet-benifits .blog-data .weight-loss .img .weight span {
+        padding: 10px 15px;
+    }
+
+    .Salajeet-benifits .blog-data .weight-loss .end-text ul li span {
+        font-size: 14px;
+    }
+
+    .Salajeet-benifits .blog-data .women-detail .img .hair span {
+        padding: 10px 15px;
+    }
+
+    .Salajeet-benifits .blog-data .women-detail .hair-text h3 {
+        font-size: 22px;
+    }
+
+    .Salajeet-benifits .blog-data .women-detail .hair-text p {
+        font-size: 14px;
+    }
+
+    .Salajeet-benifits .blog-data .women-detail .des-text .des span {
+        padding: 10px;
+    }
+
+    .Salajeet-benifits .blog-data .women-detail .des-text .des {
+        left: 10px;
+    }
+
+    .blogs .blog-heading h3 {
+        font-size: 24px;
+    }
+
+    .blogs .blog-box .overlay .overlay-text h3 {
+        font-size: 24px;
+        ;
+        text-align: center;
+    }
+
+    .blogs .overlay-text {
+        text-align: center;
+    }
+
+    .blogs .overlay-text span {
+        font-size: 14px;
+    }
+
+    .benifit .beni-head h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .benifit {
+        padding: 15px 0;
+    }
+
+    .benifits-text h3 {
+        font-size: 25px;
+    }
+
+    .benifits-text p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .blog-editor .writer-links ul {
+        text-align: center;
+    }
+
+    .blog-editor .writer-links ul li {
+        margin: 5px 0;
+    }
+
+    .beni-blog-data .head h3 {
+        font-size: 20px;
+    }
+
+    .beni-blog-data .blog-text h4 {
+        font-size: 18px;
+    }
+
+    .beni-blog-data .blog-text p {
+        font-size: 14px;
+    }
+
+    .comments .comment-head h4 {
+        font-size: 20px;
+    }
+
+    .comments .comment-box .inputs .input {
+        margin: 10px 0;
+    }
+
+    .comments .comment-box .inputs {
+        display: block;
+    }
+
+    /* Products */
+    .pro-slider .slider-data {
+        padding: 14px 14px 20px;
+    }
+
+    .slider-pro-data {
+        margin-top: 145px;
+    }
+
+    .pro-slider .carousel-indicators .img {
+        height: 70px;
+        padding: 8px;
+    }
+
+    .pro-slider .carousel-indicators {
+        bottom: -100px;
+    }
+
+    .pro-slider .slider-pro-data .garms ul li {
+        margin: 0 5px;
+    }
+
+    .pro-slider .slider-pro-data .garms ul li a {
+        width: 50px;
+    }
+
+    .pro-slider .slider-pro-data .delievry {
+        margin: 40px 0 0;
+    }
+
+    .pro-slider .slider-pro-data .delievry .return {
+        display: block;
+    }
+
+    .description .des-data {
+        width: 95%;
+    }
+    .slider-pro-data .form-check {
+        padding-left: 0.4em;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .footer-top .col-md-4 {
+        width: 50%;
+    }
+
+    .about-us-cards .col-md-4 {
+        width: 50%;
+    }
+
+    .trending-products .col-md-4 {
+        width: 50%;
+    }
+
+    .trending-products .trend-product {
+        height: 95%;
+    }
+    .des-menu ul{
+        padding: 0 !important;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .navbar-collapse {
+        position: absolute;
+        padding: 0 15px 25px;
+        top: 60px;
+        left: 30px;
+        right: 30px;
+        background-color: #fff;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        z-index: 99;
+    }
+
+    .navbar-toggler:hover {
+        box-shadow: 0 0 3px #2474EB;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 3px #2474EB;
+    }
+
+    nav .shopping-icons ul li:first-child {
+        margin-left: 0;
+    }
+
+    nav .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+
+    .log-in a {
+        font-size: 14px;
+    }
+
+    .men .row {
+        flex-direction: column-reverse;
+    }
+
+    .about-us-text {
+        padding: 0;
+    }
+
+    .women {
+        padding: 20px 0 0;
+    }
+
+    .men {
+        padding: 20px 0;
+    }
+
+    .pure .pure-dt {
+        margin: 20px 0;
+    }
+
+    .about-card-heading h3 {
+        font-size: 16px;
+    }
+
+    .about-card-text p {
+        font-size: 13px;
+    }
+
+    .about-us-text p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .about-card {
+        height: 95%;
+        margin: 15px 0;
+        padding: 20px 12px;
+    }
+
+    .about-us-cards {
+        margin: 20px 0;
+    }
+
+    .buy-now-btn a {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+    .slajit {
+        padding: 30px 0;
+    }
+
+    .slajit .slajit-img {
+        margin-top: 35px;
+    }
+
+    .salajit-data {
+        margin-top: 30px;
+    }
+
+    .salajit-text p {
+        font-size: 14px;
+    }
+
+    .footer-top {
+        padding: 40px 0 15px;
+    }
+
+    .testimonial {
+        padding: 40px 0
+    }
+
+    .testimonial .testi-heading h3 {
+        font-size: 25px;
+    }
+
+    .testimonial .owl-carousel .item .row .col-lg-4 {
+        padding-right: 12px;
+    }
+
+    .testimonial .owl-carousel .item .row .col-lg-8 {
+        padding-left: 12px;
+    }
+
+    .testimonial .owl-carousel .item .item-img img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0;
+    }
+
+    .testimonial .owl-carousel .item .item-text {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        padding: 30px 20px 10px 20px;
+    }
+
+    /* forwomen */
+    .Salajeet-benifits .blog-data .weight-loss h3 {
+        font-size: 22px;
+    }
+
+    .Salajeet-benifits .blog-data .weight-loss .top-text p {
+        font-size: 14px;
+    }
+
+    .Salajeet-benifits .blog-data .weight-loss .img .weight span {
+        padding: 10px 15px;
+    }
+
+    .Salajeet-benifits .blog-data .weight-loss .end-text ul li span {
+        font-size: 14px;
+    }
+
+    .Salajeet-benifits .blog-data .women-detail .img .hair span {
+        padding: 10px 15px;
+    }
+
+    .Salajeet-benifits .blog-data .women-detail .hair-text h3 {
+        font-size: 22px;
+    }
+
+    .Salajeet-benifits .blog-data .women-detail .hair-text p {
+        font-size: 14px;
+    }
+
+    .Salajeet-benifits .blog-data .women-detail .des-text .des span {
+        padding: 10px;
+    }
+
+    .Salajeet-benifits .blog-data .women-detail .des-text .des {
+        left: 10px;
+    }
+
+    .blogs .blog-heading h3 {
+        font-size: 24px;
+    }
+
+    .blogs .blog-box .overlay .overlay-text h3 {
+        font-size: 24px;
+        ;
+        text-align: center;
+    }
+
+    .blogs .overlay-text {
+        text-align: center;
+    }
+
+    .blogs .overlay-text span {
+        font-size: 14px;
+    }
+
+    .benifit .beni-head h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .benifit {
+        padding: 15px 0;
+    }
+
+    .benifits-text h3 {
+        font-size: 25px;
+    }
+
+    .benifits-text p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .blog-editor .writer-links ul li a {
+        padding: 8px 7px;
+        font-size: 14px;
+    }
+
+    .blog-editor .writer-links ul li {
+        margin: 0 1px;
+    }
+
+    /* Products */
+    .pro-slider .slider-data {
+        padding: 14px 14px 20px;
+    }
+
+    .slider-pro-data {
+        margin-top: 145px;
+    }
+
+    .pro-slider .carousel-indicators .img {
+        padding: 8px;
+    }
+
+    .pro-slider .slider-pro-data .garms ul li {
+        margin: 0 5px;
+    }
+
+    .pro-slider .slider-pro-data .garms ul li a {
+        width: 50px;
+    }
+
+    .pro-slider .slider-pro-data .delievry {
+        margin: 40px 0 0;
+    }
+
+    .pro-slider .slider-pro-data .delievry .return {
+        display: block;
+    }
+
+    .description .des-data {
+        width: 95%;
+    }
+
+    .pro-slider .slider-pro-data .delievry .return .head span {
+        margin: 0 5px;
+    }
+}
+
+@media (min-width:769px) and (max-width:991px) {
+    .navbar-collapse {
+        position: absolute;
+        padding: 0 15px 25px;
+        top: 60px;
+        left: 30px;
+        right: 30px;
+        background-color: #fff;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        z-index: 99;
+    }
+
+    .navbar-toggler:hover {
+        box-shadow: 0 0 3px #2474EB;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 3px #2474EB;
+    }
+
+
+    nav .shopping-icons ul li:first-child {
+        margin-left: 0;
+    }
+
+    nav .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+
+    .log-in a {
+        font-size: 14px;
+    }
+
+    .men {
+        padding-top: 0;
+    }
+
+    .women {
+        padding-bottom: 20px;
+    }
+
+    .about-us-text {
+        padding: 0;
+    }
+
+    .about-card-heading h3 {
+        font-size: 16px;
+    }
+
+    .about-card-text p {
+        font-size: 13px;
+    }
+
+    .about-us-text p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .about-card {
+        height: 95%;
+        margin: 15px 0;
+        padding: 20px 12px;
+    }
+
+    .about-us-cards {
+        margin: 20px 0;
+    }
+
+    .buy-now-btn a {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+    .slajit {
+        padding: 60px 0;
+    }
+
+    .salajit-data {
+        margin-top: 30px;
+    }
+
+    .salajit-text p {
+        font-size: 14px;
+    }
+
+    .footer-top {
+        padding: 40px 0 15px;
+    }
+
+    .testimonial {
+        padding: 40px 0
+    }
+
+    .testimonial .testi-heading h3 {
+        font-size: 25px;
+    }
+
+    .testimonial .owl-carousel .item .row .col-lg-4 {
+        padding-right: 12px;
+    }
+
+    .testimonial .owl-carousel .item .row .col-lg-8 {
+        padding-left: 12px;
+    }
+
+    .testimonial .owl-carousel .item .item-img img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0;
+    }
+
+    .testimonial .owl-carousel .item .item-text {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        padding: 30px 20px 10px 20px;
+    }
+
+    /* forwomen */
+    .Salajeet-benifits .blog-data .weight-loss h3 {
+        font-size: 22px;
+    }
+
+    .Salajeet-benifits .blog-data .weight-loss .top-text p {
+        font-size: 14px;
+    }
+
+    .Salajeet-benifits .blog-data .weight-loss .img .weight span {
+        padding: 10px 15px;
+    }
+
+    .Salajeet-benifits .blog-data .weight-loss .end-text ul li span {
+        font-size: 14px;
+    }
+
+    .Salajeet-benifits .blog-data .women-detail .img .hair span {
+        padding: 10px 15px;
+    }
+
+    .Salajeet-benifits .blog-data .women-detail .hair-text h3 {
+        font-size: 22px;
+    }
+
+    .Salajeet-benifits .blog-data .women-detail .hair-text p {
+        font-size: 14px;
+    }
+
+    .Salajeet-benifits .blog-data .women-detail .des-text .des span {
+        padding: 10px;
+    }
+
+    .Salajeet-benifits .blog-data .women-detail .des-text .des {
+        left: 10px;
+    }
+
+    .blogs .blog-heading h3 {
+        font-size: 24px;
+    }
+
+    .blogs .blog-box .overlay .overlay-text h3 {
+        font-size: 24px;
+        ;
+        text-align: center;
+    }
+
+    .blogs .overlay-text {
+        text-align: center;
+    }
+
+    .blogs .overlay-text span {
+        font-size: 14px;
+    }
+
+    .benifit .beni-head h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .benifit {
+        padding: 15px 0;
+    }
+
+    .benifits-text h3 {
+        font-size: 25px;
+    }
+
+    .benifits-text p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .blog-editor .writer-links ul li a {
+        padding: 8px 7px;
+        font-size: 14px;
+    }
+
+    .blog-editor .writer-links ul li {
+        margin: 0 1px;
+    }
+
+    /* Products */
+    .pro-slider .slider-data {
+        padding: 14px 14px 20px;
+    }
+
+    .slider-pro-data {
+        margin-top: 145px;
+    }
+
+    .pro-slider .carousel-indicators .img {
+        padding: 8px;
+    }
+
+    .pro-slider .slider-pro-data .garms ul li {
+        margin: 0 5px;
+    }
+
+    .pro-slider .slider-pro-data .garms ul li a {
+        width: 50px;
+    }
+
+    .pro-slider .slider-pro-data .delievry {
+        margin: 40px 0 0;
+    }
+
+    .pro-slider .slider-pro-data .delievry .return {
+        display: block;
+    }
+
+    .description .des-data {
+        width: 95%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1024px) {
+    .about-card-text p {
+        font-size: 14px;
+    }
+
+    .pure-text {
+        padding: 35px 30px;
+        margin: 30px 0;
+    }
+
+    .products .all-products .product-quantity .btns a {
+        padding: 10px;
+    }
+
+    .body-building .body-img {
+        height: 100%;
+    }
+
+    .slajit {
+        padding: 40px 0;
+    }
+
+    .blog-editor .writer-links ul li a {
+        padding: 8px 15px;
+    }
+}
